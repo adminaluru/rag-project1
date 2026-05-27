@@ -9,7 +9,7 @@ load_dotenv()
 # ── Constants ─────────────────────────────────────────────────────
 MODEL_NAME: str = "gpt-3.5-turbo"
 DB_PATH: str = "db"
-TOP_K: int = 3
+TOP_K: int = 5
 TEMPERATURE: float = 0.0
 
 # ── Page config ───────────────────────────────────────────────────
@@ -82,8 +82,8 @@ def process_pdfs(files) -> bool:
 
         all_chunks = []
         splitter = RecursiveCharacterTextSplitter(
-            chunk_size=500,
-            chunk_overlap=50
+            chunk_size=800,
+            chunk_overlap=100
         )
 
         progress = st.progress(0, text="Reading PDFs...")
