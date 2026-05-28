@@ -3,6 +3,7 @@
 Chat with your PDF documents using AI. Upload any PDF and ask questions 
 in natural language — powered by LangChain, ChromaDB, and OpenAI GPT.
 
+
 ## Features
 - Upload multiple PDFs directly from the browser
 - AI answers questions based only on your document content
