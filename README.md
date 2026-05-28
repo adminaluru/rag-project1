@@ -1,4 +1,4 @@
-# RAG Document Chat — AI-Powered PDF Assistant
+# RAG DocChat AI-Powered PDF Assistant
 
 Chat with your PDF documents using AI. Upload any PDF and ask questions 
 in natural language — powered by LangChain, ChromaDB, and OpenAI GPT.
